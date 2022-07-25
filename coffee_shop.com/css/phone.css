@@ -1,0 +1,265 @@
+/* *{
+    align-items: center;
+} */
+/* navbar and styling */
+
+#navbar{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+#navbar .logo{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar ul li a{
+    display: none;
+}
+
+#navbar #menu-bar{
+    display: inline-block;
+}
+
+/* home-section styling */
+
+#home-section .heading{
+    font-size: 1rem;
+}
+
+#home-section {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    /* border: 2px solid red; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    font-size: 1rem;
+    margin-top: 150px;
+    /* background-position: left; */
+}
+
+#home-section::before{
+    margin: auto auto;
+    width: 118%;
+    height: 100%;
+} 
+
+#home-section .btn{
+    font-size: 1rem;
+}
+
+#home-section h3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-top: 2rem;
+    width: auto;
+}
+
+#home-section p {
+    font-size: 1rem;
+    margin-bottom: auto;
+    line-height: auto;
+}
+
+/* about-section and styling */
+
+#about-section {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 10%;
+}
+
+#about-section .title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#about-section .card{
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+}
+
+#about-section .card img{
+    height: auto;
+    width: auto;
+}
+
+#about-section .card .btn{
+    font-size: .5rem;
+    padding: 5px;
+    margin: auto;
+    width: 5rem;
+}
+/* menu-section and styling */
+#menu-section{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#menu-section .menu-items{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+#menu-section .menu-items .btn:hover{
+    width: 10rem;
+}
+
+/* product-section and styling */
+
+#product-section{
+    font-size: 1rem;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-left: 10%;
+}
+
+#product-section .product-items{
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#product-section .product-items .btn:hover{
+    width: 10rem;
+}
+
+#product-section .title h3{
+    font-size: 2rem;
+}
+
+/* customer-section and styling */
+
+#customer-section{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#customer-section .review-items{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#customer-section .review-items .btn:hover{
+    width: 10rem;
+}
+
+#customer-section .title h3{
+    font-size: 1.6rem;
+}
+
+/* contact-section and styling */
+
+#contact-section{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#contact-section .contact-box iframe{
+    width: 104%;
+}
+
+#contact-section .contact-box{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#contact-section .contact-box .btn:hover{
+    width: 10rem;
+}
+
+#contact-section .title h3{
+    font-size: 1.6rem;
+}
+
+/* blog-section and styling */
+
+#blog-section{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#blog-section .blog-items{
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#blog-section .blog-item .btn{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+#blog-section .blog-item .btn:hover{
+    width: 10rem;
+}
+
+#blog-section .title h3{
+    font-size: 1.6rem;
+}
+
+/* footer-section and styling */
+
+#footer-section {
+    height: auto;
+    width: 111%;
+}
+
+#footer-section .footer-nav .links{
+    padding: 2rem;
+    height: 110px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-section .footer-nav .links a{
+    margin: auto;
+    /* margin-right:1rem ; */
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#footer-section .footer-para1{
+    flex-direction: cokumn;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* utility classes and styling */
+
+.btn:hover{
+    width: auto;
+    letter-spacing: 0rem;
+}
